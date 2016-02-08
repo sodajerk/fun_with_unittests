@@ -21,7 +21,7 @@ class TestChangeProbChars(unittest.TestCase):
         f.write('the owls are not what they seem')
         # close the file
         f.close()
-        # run the change_prob_chars() function 
+        # run the change_prob_chars() function
         change_prob_chars(self.test_dir)
         # check if the white space in the file name has been changed to
         # underscores
